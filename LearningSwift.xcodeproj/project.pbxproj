@@ -8,15 +8,8 @@
 
 /* Begin PBXFileReference section */
 		45617F022EDE70AC0061DC00 /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45617F2A2EDF153E0061DC00 /* FCCT.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FCCT.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		45617F042EDE70AC0061DC00 /* LearningSwift */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = LearningSwift;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		45617EFF2EDE70AC0061DC00 /* Frameworks */ = {
@@ -32,7 +25,7 @@
 		45617EF92EDE70AC0061DC00 = {
 			isa = PBXGroup;
 			children = (
-				45617F042EDE70AC0061DC00 /* LearningSwift */,
+				45617F2A2EDF153E0061DC00 /* FCCT.playground */,
 				45617F032EDE70AC0061DC00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,9 +52,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				45617F042EDE70AC0061DC00 /* LearningSwift */,
 			);
 			name = LearningSwift;
 			packageProductDependencies = (

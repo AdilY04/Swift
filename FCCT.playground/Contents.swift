@@ -1,22 +1,19 @@
 import Foundation
 
-let add: (Int, Int) -> Int
-    = { (lhs:Int, rhs:Int) -> Int in
-        lhs + rhs
-    }
-add(20,30)
+//variables and constants
+//swift is typesafe language
 
-func customAdd(
-    _ lhs: Int,
-    _ rhs: Int,
-    using function: (Int, Int) -> Int
-) -> Int {
-    function(lhs, rhs)
-}
+let firstItem: String = "Hello World"
 
-// $ as a use of referring to index number of input $0 would be 20, $1 would be 30
-customAdd(20,30) {$0 + $1}
+let secondItem: Bool = true
+let thirdItem: Bool = false
 
-let ages  = [20,30,19,40]
-ages.sorted(by: <) //sort descending
-ages.sorted(by: >) //sort ascending
+//date
+let myFirstDate: Date = Date()
+
+// number can be int (whole number), double or cgfloat (decimal numbers) and more
+//use cgfloat for ui
+//use double for maths
+let myFirstNumber = 1.0
+
+//if youre dividing, youre doing two doubles, not integers
